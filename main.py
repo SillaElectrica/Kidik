@@ -82,11 +82,18 @@ responses = {
         ]
     },
     "tengo un problema con mi producto": {
-        "respuesta": "¡Lamentamos los inconvenientes! Por favor contáctanos a <a href='mailto:Chanco3D@gmail.com'>Chanco3D@gmail.com</a> con: 1) Tu número de pedido, 2) Descripción del problema, y 3) Fotos si aplica. Nuestro equipo te responderá en menos de 24 horas hábiles con una solución.",
+        "respuesta": (
+            "¡Lamentamos los inconvenientes!\n"
+            "Por favor contáctanos a <a href='mailto:Chanco3D@gmail.com'>Chanco3D@gmail.com</a> con:\n"
+            "1) Tu número de pedido,\n"
+            "2) Descripción del problema,\n"
+            "3) Fotos si aplica.\n"
+            "Nuestro equipo te responderá en menos de 24 horas hábiles en mensaje directo con una solución."
+        ),
         "palabras_clave": [
             "tengo un problema", "queja", "reclamo", "dañado", "problemon", "problemas con producto",
             "tengo unos problemas", "hay un problema", "tengo una duda", "producto defectuoso", "problema con pedido",
-            "producto mal", "fallo producto", "producto no funciona", "producto roto", "producto dañado"
+            "producto mal", "fallo producto", "producto no funciona", "producto roto", "producto dañado", "Tengo un problemita"
         ]
     },
     "qué tipo de figuras imprimen en 3d": {
@@ -100,7 +107,14 @@ responses = {
         ]
     },
     "puedo enviar mi propio modelo 3d para que lo impriman": {
-        "respuesta": "¡Sí! Aceptamos archivos en formatos .STL u .OBJ Recomendamos: 1) Que el modelo esté optimizado para impresión.",
+           "respuesta": (
+        "¡Sí! Aceptamos archivos en formatos .STL u .OBJ\n\n"
+        "Recomendamos:\n"
+        "1) Que el modelo esté optimizado para impresión,\n"
+        "2) Que no tenga errores de malla o huecos,\n"
+        "3) Que esté en la escala correcta,\n"
+        "4) Y que venga orientado de forma adecuada si es posible."
+    ),
         "palabras_clave": [
             "propio modelo", "enviar modelo", "archivo", "STL", "OBJ", "diseño propio", "custom",
             "diseño custom", "quiero un diseño propio", "quiero un producto personalizado",
