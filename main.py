@@ -52,16 +52,16 @@ responses = {
             "beneficio de contactarlos", "ventajas de elegirlos", "razones para elegirlos",
             "por que comprar con ustedes", "que ventajas ofrecen", "por que elegir chanco3d"
         ]
-    },
-    "ventajas del uso de resina": {
-        "respuesta": (
-    "La resina ofrece múltiples ventajas:\n"
-    "1) Alta precisión en detalles finos,\n"
-    "2) Superficies lisas que requieren poco post-procesado,\n"
-    "3) Gran variedad de propiedades mecánicas,\n"
-    "4) Resistencia al agua y a la intemperie,\n"
-    "y 5) Ideal para piezas con geometrías complejas."
-),
+        },
+        "ventajas del uso de resina": {
+            "respuesta": (
+        "La resina ofrece múltiples ventajas:\n"
+        "1) Alta precisión en detalles finos,\n"
+        "2) Superficies lisas que requieren poco post-procesado,\n"
+        "3) Gran variedad de propiedades mecánicas,\n"
+        "4) Resistencia al agua y a la intemperie,\n"
+        "y 5) Ideal para piezas con geometrías complejas."
+    ),
         "palabras_clave": [
             "calidad ofrece", "que resolucion", "que tanta resolucion", "que resistencia tienen",
             "resistencia de la resina", "definicion", "ventajas de la resina", "beneficios del uso de resina",
@@ -282,11 +282,6 @@ responses = {
     }
 }
 
-
-
-
-
-}
 
 #hola
 
