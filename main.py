@@ -761,8 +761,6 @@ responses = {
 },
 "Cerebreate": {
     "respuesta": [
-        "Has dicho la palabra secreta… El Dr. Cerebro está en línea. Prepárate para una descarga intensa de conocimiento... o algo parecido.",
-        "Cerebréandome al 110%... ¡Advertencia! El segundo cerebro ha tomado el control del sistema. Mantente hidratado.",
         "¡Activando el protocolo Cerebrón™! 🧠 No garantizo respuestas lógicas, pero sí contundentes… y con gran presencia."
     ],
     "palabras_clave": ["cerebreate"]
