@@ -759,9 +759,9 @@ responses = {
         "kidik concepto", "kidik razón ser"
     ]
 },
-"Cerebreate": {
+    "Cerebreate": {
     "respuesta": [
-        "¡Activando el protocolo Cerebrón™! 🧠 No garantizo respuestas lógicas, pero sí contundentes… y con gran presencia."
+        "¡Activando el protocolo Cerebrón™! 🧠 No garantizo respuestas lógicas, pero sí contundentes… y con gran presencia.",
     ],
     "palabras_clave": ["cerebreate"]
 }
