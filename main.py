@@ -11,28 +11,28 @@ app = Flask(__name__)
 CORS(app, resources={r"/chat": {"origins": "*", "methods": ["POST"]}})
 
 responses = {
-    "quiénes somos": {
-        "respuesta": "Somos Chanco3D, una empresa innovadora y especializada en la creación de piezas personalizadas con resina. Nos dedicamos a diseñar y fabricar modelos tridimensionales de alta calidad, adaptados a las necesidades de nuestros clientes. Utilizamos tecnología avanzada de impresión 3D en resina para ofrecer detalles precisos y acabados excepcionales, ideales para una variedad de aplicaciones, desde figuras decorativas y prototipos hasta productos personalizados para ocasiones especiales.",
+        "quiénes somos": {
+        "respuesta": "Somos Chanco3D, una empresa innovadora y especializada en la creación de piezas personalizadas con resina. Nos dedicamos a diseñar y fabricar modelos tridimensionales de alta calidad...",
         "palabras_clave": [
-            "identidad empresa", "informacion corporativa", "historia chanco3d", 
-            "mision vision", "filosofia empresa", "acerca compañia",
-            "quienes conforman", "equipo fundadores", "origenes empresa",
-            "valores corporativos", "cultura organizacional", "enfoque empresarial",
-            "trayectoria empresa", "antecedentes compañia", "quienes estan detras",
-            "presentacion oficial", "descripcion completa", "datos corporativos",
-            "informacion institucional", "perfil empresa"
+            "identidad corporativa", "historia organizacional", "filosofía empresarial", 
+            "cultura organizacional", "valores fundacionales", "antecedentes históricos",
+            "estructura organizacional", "equipo fundador", "orígenes compañía",
+            "principios rectores", "visión corporativa", "mision empresarial",
+            "contexto fundacional", "legado empresarial", "esencia corporativa",
+            "fundadores empresa", "trayectoria institucional", "código ético",
+            "ADN empresarial", "propósito corporativo"
         ]
     },
     "tiempo estimado de la entrega": {
-        "respuesta": "El tiempo estimado de entrega depende del proyecto, pero suele oscilar entre 3 y 7 días hábiles después de finalizar la impresión. Para proyectos más complejos o personalizados, el tiempo puede extenderse hasta 10 días hábiles.",
+        "respuesta": "El tiempo estimado de entrega depende del proyecto...",
         "palabras_clave": [
-            "duracion proceso", "tiempo fabricacion", "plazo produccion",
-            "espera pedido", "demora envio", "periodo entrega",
-            "tiempo estimado fabrica", "cuanto esperar", "rapidez entrega",
-            "velocidad despacho", "tiempo promedio", "duracion aproximada",
-            "cuando recibir", "cuanto demora proceso", "tiempo total",
-            "cuando llega pedido", "tiempo realizacion", "plazo maximo",
-            "tiempo minimo", "horario entregas"
+            "duración fabricación", "tiempo producción", "plazo ejecución",
+            "espera producto", "demora logística", "periodo fabricación",
+            "tiempo manufactura", "cronograma entrega", "rapidez despacho",
+            "velocidad producción", "tiempo estándar", "duración aproximada",
+            "fecha recepción", "tiempo proceso", "ventana entrega",
+            "calendario producción", "plazo máximo", "tiempo mínimo",
+            "horario envíos", "estimación logística"
         ]
     },
     "qué materiales trabajamos en la empresa": {
@@ -592,7 +592,173 @@ responses = {
             "manufactura verde", "impresion responsable", "soluciones ecologicas",
             "productos verdes", "compromiso ambiental"
         ]
-    }
+    },
+    "catálogo de modelos disponible": {
+        "respuesta": "Contamos con un catálogo predeterminado que incluye una variedad de modelos 3D, como llaveros y figuras, para que puedas elegir fácilmente. Este catálogo está diseñado para ofrecer opciones listas para imprimir, facilitando el proceso si buscas algo rápido y con buen diseño.",
+        "palabras_clave": [
+            "modelos predefinidos", "opciones prediseñadas", "selección estándar",
+            "figuras catálogo", "diseños disponibles", "productos existentes",
+            "colección disponible", "gama predeterminada", "modelos base",
+            "alternativas preexistentes", "inventario diseños", "existencias modelos",
+            "selección básica", "base de datos modelos", "archivo diseños"
+        ]
+    },
+    "figuras personalizadas desde cero": {
+        "respuesta": "Sí, hacemos figuras desde cero. Ponte en contacto con nosotros para que podamos hacer una cotización personalizada y revisar juntos los detalles del diseño, así aseguramos que el resultado final sea justo lo que necesitas.",
+        "palabras_clave": [
+            "creación exclusiva", "diseño original", "desarrollo personalizado",
+            "concepción única", "elaboración exclusiva", "idea inicial",
+            "proyecto único", "creación total", "personalización absoluta",
+            "diseño integral", "desarrollo completo", "creación desde cero"
+        ]
+    },
+    "precio figura pequeña": {
+        "respuesta": "El precio de una figura pequeña está aproximadamente en 1.5 pesos mexicanos por gramo. Este costo puede variar según el diseño, el material y el nivel de detalle, pero sirve como una referencia general para que pueda calcular el presupuesto de su impresión.",
+        "palabras_clave": [
+            "costo miniatura", "valor pequeña", "precio reducido",
+            "cotización pequeña", "tarifa ligera", "presupuesto compacto",
+            "inversión mínima", "precio gramo", "costo por peso",
+            "tarifación gramaje", "valoración peso", "presupuesto liviano"
+        ]
+    },
+    "pedidos urgentes": {
+        "respuesta": "No",
+        "palabras_clave": [
+            "inmediato", "express", "prioritario",
+            "rápido", "acelerado", "inmediato",
+            "urgente", "pronta entrega", "entrega rápida",
+            "servicio express", "tiempo récord", "producción acelerada"
+        ]
+    },
+    "colores disponibles": {
+        "respuesta": "Por el momento, nuestra impresión 3D está disponible únicamente en colores gris y blanco. Estos colores básicos nos permiten mantener un control óptimo sobre la calidad y los tiempos de producción, garantizando resultados consistentes y precisos. ",
+        "palabras_clave": [
+            "gama cromática", "paleta disponible", "opciones color",
+            "escala tonal", "variantes color", "disponibilidad tonal",
+            "alternativas color", "colores stock", "tonalidades existentes",
+            "opciones estéticas", "espectro disponible"
+        ]
+    },
+    "retoques y pintura post-impresión": {
+        "respuesta": "Solo si usted lo desea, ofrecemos el servicio de pintado para su figura impresa en 3D. Este proceso se realiza de manera cuidadosa para resaltar los detalles y darle un acabado profesional y personalizado. Tenga en cuenta que este servicio implica un costo adicional, ya que requiere tiempo, materiales y mano de obra especializada para asegurar un resultado de alta calidad. Si está interesado, podemos proporcionarle más información sobre las opciones de colores y estilos disponibles.",
+        "palabras_clave": [
+            "acabados adicionales", "mejoras estéticas", "detallado postproducción",
+            "terminado especial", "pintura final", "embellecimiento",
+            "toques finales", "mejoras superficiales", "refinamiento pieza",
+            "detallado manual", "acabado premium"
+        ]
+    },
+    "modificación de archivos existentes": {
+        "respuesta": "Sí, solo que habrá que hacer una cotización, hablar de los detalles del modelo y el tiempo de entrega.",
+        "palabras_clave": [
+            "adaptación diseño", "ajuste modelo", "personalización existente",
+            "modificación prediseño", "cambios archivo", "alteración diseño",
+            "reescalado diseño", "optimización existente", "evolución modelo",
+            "transformación diseño", "actualización archivo"
+        ]
+    },
+    "pedidos múltiples": {
+        "respuesta": "Sí.",
+        "palabras_clave": [
+            "producción masiva", "seriado", "réplicas",
+            "múltiples unidades", "cantidad", "volumen",
+            "serie", "fabricación múltiple", "pedido repetitivo",
+            "producción en serie", "fabricación seriada"
+        ]
+    },
+    "resistencia de la resina": {
+        "respuesta": "La resina es resistente y ofrece buena durabilidad, especialmente para piezas detalladas y de tamaño pequeño a mediano. Puede tener propiedades como resistencia al impacto, flexibilidad o rigidez, adaptándose a diferentes necesidades",
+        "palabras_clave": [
+            "durabilidad material", "robustez piezas", "fortaleza estructural",
+            "solidez impresión", "tenacidad resina", "performance mecánica",
+            "estabilidad material", "fiabilidad estructural", "consistencia física",
+            "calidad estructural", "rendimiento físico"
+        ]
+    },
+    "llaveros y accesorios pequeños": {
+        "respuesta": "Sí, porque con resina se pueden crear detalles muy diminutos y precisos, lo que permite lograr acabados finos y diseños complejos que serían difíciles de conseguir con otros materiales.",
+        "palabras_clave": [
+            "miniaturas", "accesorios detalle", "productos diminutos",
+            "objetos pequeños", "detalles precisos", "elementos miniatura",
+            "artículos pequeños", "piezas micro", "accesorios precisos",
+            "detallado fino", "objetos precisos"
+        ]
+    },
+    "diseños descargados de internet": {
+        "respuesta": "Sí, aceptamos modelos descargados de internet siempre y cuando cumplan con nuestras normas de calidad, diseño y derechos de autor. De esta manera, garantizamos que las piezas impresas sean seguras, funcionales y respeten las regulaciones establecidas para nuestro servicio.",
+        "palabras_clave": [
+            "archivos online", "modelos web", "descargas digitales",
+            "diseños externos", "archivos terceros", "contenido descargado",
+            "modelos online", "diseños web", "archivos digitales",
+            "contenido externo", "archivos foráneos"
+        ]
+    },
+    "piezas móviles o articuladas": {
+        "respuesta": "Sí, se pueden fabricar piezas articuladas o movibles mediante impresión 3D. Esto se logra diseñando las partes con las tolerancias adecuadas para que encajen y se muevan entre sí sin necesidad de ensamblaje adicional. Así, las piezas pueden tener funciones mecánicas integradas directamente desde la impresión, lo que permite crear objetos complejos con partes móviles listas para usar.",
+        "palabras_clave": [
+            "mecanismos", "partes móviles", "ensamblajes",
+            "articulaciones", "componentes móviles", "sistemas articulados",
+            "mecanismos impresos", "partes funcionales", "movimiento pieza",
+            "funcionalidad mecánica", "ingeniería impresa"
+        ]
+    },
+    "origen del nombre Chanco3D": {
+        "respuesta": "La empresa Chanco 3D surge como una iniciativa innovadora impulsada por la necesidad creciente de soluciones de fabricación digital en la región...",
+        "palabras_clave": [
+            "significado nombre", "etimología marca", "origen denominación",
+            "historia marca", "razón nombre", "procedencia denominación",
+            "inspiración nombre", "fundamento marca", "concepto identidad",
+            "nacimiento marca", "esencia nombre"
+        ]
+    },
+    "colores mezclados": {
+        "respuesta": "Podemos hacer piezas 3D huecas con un color sólido de base en la impresión, para que pesen menos usando menos material sin perder resistencia. Esto ayuda a reducir costos y hace que las piezas sean más fáciles de manejar y transportar, manteniendo un acabado uniforme y atractivo.",
+        "palabras_clave": [
+            "policromía", "multicolor", "mezcla tonal",
+            "degradados", "variación cromática", "combinación colores",
+            "efectos color", "variedad tonal", "paleta múltiple",
+            "arcoiris", "cromatismo"
+        ]
+    },
+    "pagos en línea": {
+        "respuesta": "De momento solo aceptamos transferencia, pero estamos trabajando en introducir más métodos de pago.",
+        "palabras_clave": [
+            "pago digital", "transacción online", "pago electrónico",
+            "comercio electrónico", "pago web", "transacción digital",
+            "pago automatizado", "pago instantáneo", "transferencia digital",
+            "pago plataforma", "transacción electrónica"
+        ]
+    },
+    "peso piezas de resina": {
+        "respuesta": "Entre 10 a 50 gramos por pieza de un tamaño pequeño.",
+        "palabras_clave": [
+            "masa piezas", "gramaje resina", "peso estándar",
+            "medida peso", "carga pieza", "peso promedio",
+            "gramaje estándar", "peso típico", "masa estándar",
+            "rango peso", "característica peso"
+        ]
+    },
+    "piezas huecas": {
+        "respuesta": "Podemos hacer piezas 3D huecas para que pesen menos, usando menos material sin perder resistencia. Esto ayuda a reducir costos y hace que las piezas sean más fáciles de manejar y transportar. Además, al ser más livianas, pueden ser más prácticas para diferentes usos donde el peso es importante.",
+        "palabras_clave": [
+            "estructura vacía", "ahorro material", "aligeramiento",
+            "reducción peso", "cavidad interna", "núcleo hueco",
+            "optimización material", "interior vacío", "diseño ligero",
+            "estructura liviana", "peso reducido"
+        ]
+    },
+    "Que significa kidik": {
+    "respuesta": "Kidik representa un asistente virtual diseñado para ser ágil, accesible y amigable, que facilita la interacción y ayuda a resolver dudas de manera rápida y sencilla. Su nombre evoca dinamismo y cercanía, reflejando un apoyo confiable y siempre disponible para acompañarte en tus consultas diarias.",
+    "palabras_clave": [
+        "significado kidik", "etimología kidik", "origen nombre kidik",
+        "concepto kidik", "definición kidik", "kidik que significa",
+        "explicación kidik", "kidik significado", "porque kidik",
+        "kidik representación", "esencia kidik", "fundamento kidik",
+        "kidik nombre", "kidik denominación", "kidik identidad",
+        "kidik propósito", "kidik filosofía", "kidik esencia",
+        "kidik concepto", "kidik razón ser"
+    ]
+}
 }
 
 #hola
