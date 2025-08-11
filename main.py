@@ -87,7 +87,7 @@ responses = {
             "localidades cubiertas", "expansion futura", "nuevas zonas",
             "ampliacion cobertura", "envios proximamente", "lugares disponibles",
             "ciudades actuales", "entregas locales", "servicio regional",
-            "area operaciones", "territorio actual"
+            "area operaciones", "territorio actual", "entrega internacional", "a que paises entregan"
         ]
     },
     "tengo un problema con mi producto": {
@@ -437,7 +437,7 @@ responses = {
             "herramientas desarrollo", "tecnologias implementadas", "sistemas utilizados",
             "plataforma operativa", "entorno desarrollo", "stack tecnologico",
             "componentes tecnicos", "implementacion tecnica", "detalles implementacion",
-            "especificaciones tecnicas", "caracteristicas sistema"
+            "especificaciones tecnicas", "caracteristicas sistema", "como funcionas"
         ]
     },
     "mi figura se daño en camino": {
@@ -758,13 +758,8 @@ responses = {
         "kidik propósito", "kidik filosofía", "kidik esencia",
         "kidik concepto", "kidik razón ser"
     ]
-},
-    "Cerebreate": {
-    "respuesta": [
-        "¡Activando el protocolo Cerebrón™! 🧠 No garantizo respuestas lógicas, pero sí contundentes… y con gran presencia.",
-    ],
-    "palabras_clave": ["cerebreate"]
 }
+
 }
 
 #hola
